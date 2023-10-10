@@ -11,7 +11,6 @@ public class Operations : MonoBehaviour
 
     [SerializeField] private int hour = 12;
 
-    [SerializeField] private float numero = 14;
 
     private void Start()
     {
