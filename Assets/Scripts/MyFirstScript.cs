@@ -30,6 +30,8 @@ public class MyFirstScript : MonoBehaviour
 
     [SerializeField] private int hour;
 
+    [SerializeField] private float num;
+
     private void Start()
     {
         /*
@@ -71,6 +73,37 @@ public class MyFirstScript : MonoBehaviour
         */
 
         // Debug.Log(hour % 12);
+
+        /*
+        // OPERADORES CONDICIONALES
+        // Igualdad ==
+        // True si son iguales
+        // False si son diferentes
+        Debug.Log(num1 == num2);
+
+        // Desigualdad !=
+        // True si son diferentes
+        // False si son iguales
+        Debug.Log(num1 != num2);
+
+        // Menor <
+        // true si el numero de la izq es menor
+        // false si el numero de la izq es mayor o igual
+        Debug.Log(num1 < num2);
+
+        // Mayor >
+        // Menor o igual <=
+        // Mayor o igual >=
+        */
+
+        /*
+        if (num > 0)
+        {
+            Debug.Log($"{num} es positivo");
+        }
+        */
+
+
 
     }
 }

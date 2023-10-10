@@ -11,8 +11,11 @@ public class Operations : MonoBehaviour
 
     [SerializeField] private int hour = 12;
 
+    [SerializeField] private float numero = 14;
+
     private void Start()
     {
+        /*
         Debug.Log($"{num1} + {num2} = {num1 + num2}");
         Debug.Log($"{num1} - {num2} = {num1 - num2}");
         Debug.Log($"{num1} * {num2} = {num1 * num2}");
@@ -22,7 +25,11 @@ public class Operations : MonoBehaviour
         Debug.Log(num % 3);
 
         Debug.Log(hour % 12);
+        */
 
+        
+
+        
 
     }
 
