@@ -157,6 +157,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   num1: 2
   num2: 3
+  username: Andreu
+  var1: 14
+  var2: 6
 --- !u!65 &226947700
 BoxCollider:
   m_ObjectHideFlags: 0
