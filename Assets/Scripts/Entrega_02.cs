@@ -14,7 +14,7 @@ public class Entrega_02 : MonoBehaviour
 
     // Exercise 4:
 
-    // pendiente
+    private string result = "2 < 3";
 
     // Exercise 5:
 
@@ -50,11 +50,11 @@ public class Entrega_02 : MonoBehaviour
 
         Debug.Log($"{var1} % {var2} = {var1 % var2}");
 
+
+        // Exercise 9:
+
+        Debug.Log($"Hello! My name is {username}");
     }
-
-    // Exercise 9:
-
-    // pendiente
 
     //Exercise 10:
 
@@ -62,12 +62,12 @@ public class Entrega_02 : MonoBehaviour
     Exercise 1: The creation of the private variables num1 with number 2 and num2 with number 3 assigned to them in the inspector
     Exercise 2: The result displayed in the cosnole by the sum of the two variables is 5
     Exercise 3: The first variable created (num1) isn't greater than or equal to the second one (num 2) but instead is lower
-    Exercise 4: 
+    Exercise 4: The creation of a string variable displaying the result
     Exercise 5: The creation of a private string named "Andreu"
     Exercise 6: The message "Welcome Andreu" is displayed in the console
     Exercise 7: The creation of the private variables var1 with number 14 and var2 with number 6 assigned to them in the inspector
     Exercise 8: The result of the variable modulo displayed in the console is 2     ¿?*
-    Exercise 9: 
+    Exercise 9: The message "Hello! My name is Andreu" is displayed in the console
     */
 
 
