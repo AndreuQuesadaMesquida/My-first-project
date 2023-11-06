@@ -25,7 +25,7 @@ public class Entrega_03 : MonoBehaviour
     // Exercise 5
     private int day = 14;
     private int month = 4;
-    private int year = 2008;
+    private int year = 2036;
 
     // Exercise 6 XD
 
@@ -115,7 +115,7 @@ public class Entrega_03 : MonoBehaviour
         }
 
         // Exercise 5
-        if (year < 2024 && month <= 1 && month >= 12 && day <= 1 && day >= 31)
+        if (year < 2024 && month >= 1 && month <= 12 && day >= 1 && day <= 31)
         {
             Debug.Log("Is a valid date");
         }
